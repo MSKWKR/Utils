@@ -21,7 +21,7 @@ Windows 11 Home (Windows 11 家用版)<br>
     `irm https://raw.githubusercontent.com/MSKWKR/WinReg/refs/heads/main/kms_script.ps1 | iex`
     
   - Run KMS script locally (下載KMS程式碼):<br>
-    `curl -o %USERPROFILE%\Downloads\kms_local.bat https://raw.githubusercontent.com/MSKWKR/WinReg/refs/heads/main/kms_local.bat`
+    `curl -o "$env:USERPROFILE\Downloads\kms_local.bat" https://raw.githubusercontent.com/MSKWKR/WinReg/refs/heads/main/kms_local.bat`
     
 - System maintenance (系統維護):<br>
   >*For cleaning garbage files and check C: disk integrity. (清理系統暫存檔以及檢測系統槽)*
@@ -29,4 +29,4 @@ Windows 11 Home (Windows 11 家用版)<br>
     `irm https://raw.githubusercontent.com/MSKWKR/WinReg/refs/heads/main/cleanup_script.ps1 | iex`
     
   - Run cleanup script locally (下載清理程式碼):<br>
-    `curl -o %USERPROFILE%\Downloads\cleanup_local.bat https://raw.githubusercontent.com/MSKWKR/WinReg/refs/heads/main/cleanup_local.bat`
+    `curl -o "$env:USERPROFILE\Downloads\cleanup_local.bat" https://raw.githubusercontent.com/MSKWKR/WinReg/refs/heads/main/cleanup_local.bat`
