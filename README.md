@@ -30,3 +30,13 @@ Windows 11 Home (Windows 11 家用版)<br>
     
   - Run cleanup script locally (下載清理程式碼):<br>
     `curl -o "$env:USERPROFILE\Downloads\cleanup_local.bat" https://raw.githubusercontent.com/MSKWKR/WinReg/refs/heads/main/cleanup_local.bat`
+
+## Miscellaneous (雜項):
+- During Windows 11 setup to bypass internet requirement: (在Window 11設定介面跳過網路需求)<br>
+  In the region selection page, press `SHIFT` + `F10` to open command prompt.<br>
+  (在地區選擇頁面按住 `SHIFT` + `F10` 開啟指令介面)<br>
+  Type in `OOBE\BYPASSNRO`. (輸入`OOBE\BYPASSNRO`)
+
+- If disk is running slow or having file errors: (如果硬碟槽運作緩慢或者出現檔案錯誤)<br>
+  Open CMD by typing ***cmd*** in search bar. (在搜尋欄輸入 ***cmd*** 並打開)<br>
+  Type in `chkdsk X: /f /r`. Example: `chkdsk D: /f /r` for checking D drive. (檢測D槽輸入 `chkdsk D: /f /r`) 
